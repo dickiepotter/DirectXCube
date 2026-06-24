@@ -1,0 +1,16 @@
+## .NET build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+## Visual Studio
+.vs/
+*.user
+
+## Rider
+.idea/
+
+## Test results
+[Tt]est[Rr]esult*/
+*.trx

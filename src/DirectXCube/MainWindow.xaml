@@ -1,0 +1,12 @@
+<Window x:Class="DirectXCube.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DirectXCube — Direct3D 11 in a WinForms airspace"
+        Width="640" Height="480"
+        Background="#202830">
+    <!--
+        WindowsFormsHost embeds a Win32/WinForms control inside the WPF visual tree.
+        Direct3D needs a real HWND to draw into; this Panel provides one.
+    -->
+    <WindowsFormsHost x:Name="Host" />
+</Window>

@@ -1,0 +1,18 @@
+<Project>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Richard Potter</Authors>
+    <Company>Richard Potter</Company>
+    <Product>DirectXCube</Product>
+    <Copyright>Copyright © Richard Potter</Copyright>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>
