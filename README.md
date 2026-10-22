@@ -237,3 +237,7 @@ write a few lines of HLSL and push your matrices through a constant buffer — r
 `System.Numerics` is row-major. Lean on the **depth buffer** rather than fragile winding to get a solid
 cube, and keep **airspace** in mind: this technique is perfect for a dedicated 3D region and the wrong
 tool the moment you need WPF content floating over the scene.
+
+## Licence and disclaimer
+
+This is a personal project by Richard Potter, shared in the hope it's useful. It's free to use under the MIT licence (see [LICENSE](LICENSE)). It's provided as is: I make no promises that it works or suits your purpose, and I take no responsibility for anything that happens from using it. It isn't a product of, or supported by, any company I work for.
